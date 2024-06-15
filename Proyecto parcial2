@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud y Drogas</title>
+    <style>
+        /* Estilos CSS */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salud y Drogas</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#efectos">Efectos</a>
+        <a href="#prevencion">Prevención</a>
+        <a href="#ayuda">Ayuda</a>
+    </nav>
+    <section id="inicio">
+        <h2>Introducción</h2>
+        <p>En esta pagina web nos encargamos de atender la salud fisisca y mental de cualquier paciente ya sea con problemas psicologicos,de drogras,alcoholismo,estres,etc 
+            Ya que cualquier problema mencionado anteriormente afectan gradualmente a la salud dejando al paciente sin posibiladad de salvar lo que algun dia podria a ver llegado a ser </p>
+    </section>
+    <section id="efectos">
+        <h2>Efectos de las Drogas</h2>
+        <p>| las drogas actúan sobre los neurotransmisores alterando y perturbando el correcto funcionamiento afectando a la conducta, estado de ánimo o percepción. Además, son susceptibles de crear dependencia física y/o psicológica.</p>
+    </section>
+    <section id="prevencion">
+        <h2>Prevención</h2>
+        <li> Fomentar la autoestima desde la infancia los padres deben estar atentos a la forma en que se desarrolla la autoestima de sus hijos</li>
+            <li>Es importante acompañarlos, quererlos, entenderlos y en todo momento comunicarse con ellos</li>
+            <li>Hay que adoptar medidas que estimulen que el niño tenga un buen concepto de sí mismo, lo que es un factor que tiene un gran impacto en la autoestima</li> 
+            <li>Mantener una buena comunicación con los padres es una forma de reducir el miedo y la incertidumbre de los hijos frente a todos los cambios que ocurren en su cuerpo y en su mente en la adolescencia</li>
+    </section>
+    <section id="ayuda">
+        <h2>Dónde Buscar Ayuda</h2>
+        <p><a href="https://salud.edomex.gob.mx/salud/capa">Salud edomex</a></p>
+        <p><a href="https://www.gob.mx/salud/acciones-y-programas/centro-de-atencion-ciudadana-contra-las-adicciones">Centro de salud</a></p>
+        <p><a href="https://www.who.int/es/news-room/fact-sheets/detail/mental-health-strengthening-our-response">Salud Mental</a></p>
+    </section>
+    <footer>
+        <p>Derechos Reservados &copy; 2024 Salud y Drogas</p>
+    </footer>
+
+    <!-- Formulario para enviar datos a la base de datos -->
+    <form action="guardar_datos.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
